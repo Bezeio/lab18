@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#search{
+  justify-content: end;
+}
+img{
+  background-color: #000;
+  background-size: cover;
+  background-image: url("image/banner.jpg");
+  height: 500px;
+  text-align: end;
+  justify-content: flex-start;
+
+}
+.carousel-caption{
+  text-align: start;
+}
+footer{
+  width: 90%;
+  padding-top: 10%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer-left{
+  display: flex;
+
+}
+.text-blue{
+  color: blue;
+  text-decoration: underline;
+
+}
+
