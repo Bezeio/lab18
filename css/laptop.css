@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+#banner {
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url("/images/banner.jpg");
+  position: relative;
+  height: 70vh;
+  background-size: cover;
+  text-align: center;
+}
+#banner h1,
+#banner span {
+  color: #f7f7f7;
+  font-weight: 50;
+  line-height: 1.5;
+  padding-top: 70px;
+}
+#nav-bar {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(182, 174, 174);
+}
+#nav-bar i {
+  color: rgb(72, 170, 206);
+}
+#nav-bar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+#nav-bar .avatar img {
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+  transform: scale(12);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#nav-bar .nav {
+  border-left: 1px solid lightgray;
+  padding: 20px 40px 20px;
+}
+.user,
+.mail {
+  border-left: 1px solid rgb(182, 174, 174);
+  border-right: 1px solid rgb(182, 174, 174);
+}
+#about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: rgb(80, 77, 77);
+  clear: both;
+}
+#about .target {
+  font-weight: lighter;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 140px 0px 100px;
+}
+#about .personal-info {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 140px 0px 70px;
+}
+#about .personal-info span {
+  font-weight: 550;
+}
+#about .personal-info ul {
+  margin: 0;
+}
+#about .personal-info .icon {
+  color: rgb(72, 170, 206);
+  margin: 30px 35px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+  height: auto;
+}
+
+section > .container {
+  padding: 30px 50px;
+}
+#job-info .container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+  gap: 40px;
+}
+#job-info .container .header {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 30px;
+}
+#job-info .container .grid {
+  border: 1px solid rgb(234, 232, 232);
+  line-height: 30px;
+  height: fit-content;
+}
+#job-info .container .grid i {
+  font-size: 50px;
+  color: rgb(190, 189, 189);
+}
+#job-info .container #exp .content span {
+  border: 2px solid rgb(62, 178, 220);
+  border-radius: 25px;
+  background-color: rgb(62, 178, 220);
+  color: white;
+}
+#job-info .container .content li,
+#job-info .container .content p {
+  color: grey;
+}
+#job-info .container .content li::marker {
+  color: rgb(62, 178, 220);
+  font-size: 25px;
+}
+#job-info .container #habits .content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+#job-info .container #habits .content .habit i {
+  padding-top: 10px;
+  font-size: 30px;
+  border: 1px solid rgb(62, 178, 220);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  color: rgb(62, 178, 220);
+}
+#language .content,
+#skill .content {
+  padding-left: 40px;
+}
+.span-blue {
+  background: rgb(62, 178, 220);
+  display: inline-block;
+  height: 2px;
+  margin-left: 10px;
+  width: 50px;
+}
+.span-grey {
+  background: #dee2e6;
+  display: inline-block;
+  height: 2px;
+  margin-left: 10px;
+  width: 50px;
+}
+#nav-bar {
+  text-align: center;
+}
+#certificate .content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+#certificate .content .grid {
+  clear: both;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  line-height: 20px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+#certificate .content #cert_mid img {
+  padding-left: 20px;
+  border-left: 1px solid #d6c08d;
+}
+#project .content {
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  margin-bottom: 40px;
+  gap: 40px;
+}
+#project .content {
+  justify-content: center;
+  overflow: hidden;
+}
+#project .content .content-project {
+  margin-left: 20px;
+  border: 1px solid rgb(218, 218, 218);
+}
+#project .content .content-project {
+  display: block;
+}
+#project .intro-project h2 {
+  text-transform: uppercase;
+}
+#project .intro-project i,
+#project .intro-project p {
+  color: rgb(139, 137, 137);
+}
+#project .intro-project .intro {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#project .intro-project .detail {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  text-align: start;
+}
+
+#project .intro-project span {
+  color: aliceblue;
+  font-size: 12px;
+  border: 1px solid rgb(14, 157, 209);
+  background-color: rgb(14, 157, 209);
+  border-radius: 30px;
+  padding: 7px;
+  text-align: center;
+  align-items: center;
+}
+
+#project .content img {
+  flex-shrink: 0;
+  max-width: 100%;
+  max-height: 40%;
+  min-height: min-content;
+  min-width: 30%;
+}
+#footer .container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+#footer .container ul i {
+  font-size: 30px;
+  gap: 40px;
+  color: rgb(62, 178, 220);
+}
+#footer .container ul li {
+  color: rgb(160, 158, 158);
+  margin-right: 35px;
+}
